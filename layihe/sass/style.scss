@@ -79,3 +79,52 @@
         }
     }
 }
+#slider{
+    div{
+        div{
+            
+            .border{
+                width: 5%;
+              
+                position: absolute;
+                z-index: 100;
+                top:32%;
+                left: 770px;
+                border: 1px solid gold;
+            }
+            h1{
+                font-size: 8em;
+                position: absolute;
+                color: white;
+                top:37%;
+                left: 25%;
+                text-align: center;
+            }
+            h2{
+                font-size: 1.8em;
+                position: absolute;
+                color: white;
+                top:55%;
+                left: 26%;
+                text-align: center;
+            }
+            button{
+                width: 250px;
+                height: 50px;
+                background: gold;
+                top:62%;
+                left: 43%;
+                position: absolute;
+                border: none;
+                color: white;
+                border-radius: 5px;
+                transition: .5s ease;
+                &:hover{
+                    background: #212326;
+                }
+            }
+        
+        }
+    }
+  
+}
